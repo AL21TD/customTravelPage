@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     showCodeButton.addEventListener("click", function () {
         var selectedRegion = document.getElementById("countries").value;
 
-        fetch('/db/codes.csv')
+        fetch('codes.csv')
 
             .then(response => response.text())
             .then(csvData => {
