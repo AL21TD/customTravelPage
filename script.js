@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     if (nextCode) {
                         localStorage.setItem("generatedCode", nextCode);
                         localStorage.setItem("selectedRegion", selectedRegion);
-                        window.location.href = "https://al21td.github.io/customTravelPage/src/code.html";
+                        window.location.href = "https://al21td.github.io/customTravelPage/code.html";
 
                     } else {
                         alert("Kein Code verfügbar für die ausgewählte Region.");
